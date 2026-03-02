@@ -51,7 +51,7 @@ const Navbar = () => {
           </div>
         </div>
         {isOpen && (
-          <ul className="absolute top-full left-0 w-full bg-white shadow-lg flex flex-col items-center gap-6 py-6 md:hidden">
+          <ul className="lg:hidden absolute top-full left-0 w-full bg-white shadow-lg flex flex-col items-center gap-6 py-6">
             <li className="hover:text-orange-500 cursor-pointer">
               <a onClick={closeMenu} href="#home">
                 Home
