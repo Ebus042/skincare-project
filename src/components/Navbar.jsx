@@ -16,7 +16,7 @@ const Navbar = () => {
         </h1>
 
         {/* Links */}
-        <ul className="hidden md:flex gap-8 text-gray-700 font-medium">
+        <ul className="hidden lg:flex gap-8 text-gray-700 font-medium">
           <li className="hover:text-orange-500 cursor-pointer">
             <a href="#home">Home</a>
           </li>
