@@ -2,7 +2,10 @@ import model from "../assets/hero-model.png";
 
 const Hero = () => {
   return (
-    <section id="home" className="bg-[#FDF6EC] min-h-screen flex items-center">
+    <section
+      id="home"
+      className="bg-[#FDF6EC] min-h-screen flex items-center overflow-hidden"
+    >
       <div className="container mx-auto px-6 lg:flex items-center justify-between">
         {/* Text */}
         <div className="lg:w-1/2 space-y-6 mt-24">

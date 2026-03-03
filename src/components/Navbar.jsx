@@ -8,7 +8,7 @@ const Navbar = () => {
   };
 
   return (
-    <header className="absolute top-0 left-0 w-full z-50">
+    <header className="absolute top-0 left-0 w-full z-50 overflow-hidden">
       <nav className="flex items-center justify-between px-10 py-6">
         {/* Logo */}
         <h1 className="text-2xl font-semibold">
